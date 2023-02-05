@@ -1,0 +1,9 @@
+Started GET "/" for 10.128.0.42 at 2023-02-05 05:58:27 +0000
+Cannot render console from 10.128.0.42! Allowed networks: 10.128.0.51, 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.9ms | Allocations: 831)
+Completed 200 OK in 21ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 7559)
+
+
